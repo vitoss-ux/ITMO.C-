@@ -86,8 +86,8 @@ int CubRoot(double n)
 
 // Площадь треугольников
 
-double EquilateralTriangle(double);
-double VersatileTriangle(double, double, double);
+double TotalTriangle(double);
+double TotalTriangle(double, double, double);
 
 int main()
 {
@@ -98,15 +98,15 @@ int main()
     double a, b, c;
     cout << "Введи длину стороны РАВНОСТОРОННЕГО треугольника: \n";
     cin >> a;
-    cout << "Площадь РАВНОСТОРОННЕГО треугольника со стороной " << a << " = " << EquilateralTriangle(a) << endl;
+    cout << "Площадь РАВНОСТОРОННЕГО треугольника со стороной " << a << " = " << TotalTriangle(a) << endl;
 
     cout << "Введи длины сторон РАЗНОСТОРОННЕГО треугольника: \n";
     cin >> a >> b >> c;
-    cout << "Площадь РАВНОСТОРОННЕГО треугольника со стороной " << a << " = " << VersatileTriangle(a, b, c) << endl;
+    cout << "Площадь РАВНОСТОРОННЕГО треугольника со стороной " << a << " = " << TotalTriangle(a, b, c) << endl;
     
 }
 
-double EquilateralTriangle(double a)
+double TotalTriangle(double a)
 {
     double h, s;
     h = (a * sqrt(3)) / 2;
@@ -114,7 +114,7 @@ double EquilateralTriangle(double a)
     return s = .5 * a * h;
 }
 
-double VersatileTriangle(double a, double b, double c)
+double TotalTriangle(double a, double b, double c)
 {
     double p, s;
     p = (a + b + c) / 2;
