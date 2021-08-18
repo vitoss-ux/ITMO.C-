@@ -1,0 +1,4 @@
+﻿  LabWork_11.cpp
+D:\Изучение C#\Projects\ITMO\C++\LabWork_11\LabWork_11.cpp(78,11): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+D:\Изучение C#\Projects\ITMO\C++\LabWork_11\LabWork_11.cpp(95,11): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+  LabWork_11.vcxproj -> D:\Изучение C#\Projects\ITMO\C++\LabWork_11\Debug\LabWork_11.exe
