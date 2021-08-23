@@ -1,0 +1,5 @@
+﻿  LabWork_14.cpp
+D:\Изучение C#\Projects\ITMO\C++\LabWork_14\LabWork_14.cpp(28,70): warning C4838: Преобразование из "__int64" в "long" требует сужающего преобразования.
+D:\Изучение C#\Projects\ITMO\C++\LabWork_14\LabWork_14.cpp(28,83): warning C4305: инициализация: усечение из "__int64" в "long"
+D:\Изучение C#\Projects\ITMO\C++\LabWork_14\LabWork_14.cpp(28,70): warning C4309: инициализация: усечение константного значения
+  LabWork_14.vcxproj -> D:\Изучение C#\Projects\ITMO\C++\LabWork_14\Debug\LabWork_14.exe
